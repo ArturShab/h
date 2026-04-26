@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 150px;
+}
+.headershtuki{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.consult{
+    background-color: rgb(39, 39, 141);
+    border: solid 1px rgb(39, 39, 141);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 5px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.bannertext{
+    width: 25%;
+    height: 20%;
+    position: absolute;
+    color: white;
+    right: 20%;
+    top: 30%;
+}
